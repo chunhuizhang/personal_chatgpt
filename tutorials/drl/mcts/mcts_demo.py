@@ -26,7 +26,7 @@ class UCTNode():
         self.child_total_value = np.zeros([10], dtype=np.float32)
         self.child_number_visits = np.zeros([10], dtype=np.float32)
 
-    # ni
+    # Ni
     @property
     def number_visits(self):
         return self.parent.child_number_visits[self.action]
@@ -115,9 +115,10 @@ def print_tree_level_width(root: UCTNode):
 def UCT_search(state, num_reads):
     root = UCTNode(state, action=None, parent=DummyNode())
     for _ in range(num_reads):
+        # 每次都是从根节点出发
         leaf = root.select_leaf()
         # child_priors: [0, 1]
-        child_priors, value_estimate = NeuralNet().simulate(leaf.state)
+        child_priors, value_estimate = NeuralNet().evaluate(leaf.state)
         leaf.expand(child_priors)
         leaf.backup(value_estimate)
     print_tree_level_width(root)
@@ -126,8 +127,10 @@ def UCT_search(state, num_reads):
 
 class NeuralNet():
     @classmethod
-    def simulate(self, game_state):
-        # return policy_net, value_net
+    def evaluate(self, game_state):
+        # return policy_network(state), value_network(state)
+        # policy_network(state): return pi(a|s)
+        # value_network(state): return v(s)
         return np.random.random([10]), np.random.random()
 
 
