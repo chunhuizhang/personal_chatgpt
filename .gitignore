@@ -165,3 +165,5 @@ tutorials/dataset/
 
 xgen-7b-tuned-alpaca-l1/
 trl/
+train_logs/
+tutorials/reward_model/reward_model/
