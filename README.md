@@ -21,3 +21,8 @@ personal chatgpt
 - [PEFT/LoRA 源码分析](https://www.bilibili.com/video/BV1sV4y1z7uS/)
 - [LLaMA，Alpaca LoRA 7B 推理](https://www.bilibili.com/video/BV1Po4y1T7Bn/)
 - [peft LoRA merge pipeline（lora inject，svd）](https://www.bilibili.com/video/BV13A4m1w7i6/)
+
+## TRL (Transformer Reinforcement Learning)
+
+- [trl 基础介绍](https://www.bilibili.com/video/BV1zm4y1H79x/)
+- [trl reward model 与 RewardTrainer（奖励模型，分类模型）](https://www.bilibili.com/video/BV1GZ421t7oU/)
