@@ -31,3 +31,4 @@
 
 - [trl 基础介绍](https://www.bilibili.com/video/BV1zm4y1H79x/)
 - [trl reward model 与 RewardTrainer（奖励模型，分类模型）](https://www.bilibili.com/video/BV1GZ421t7oU/)
+- [trl rlhf PPOTrainer，原理分析与代码走读（OpenRLHF framework）](https://www.bilibili.com/video/BV1ss421G7Nj/)
