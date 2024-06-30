@@ -3,7 +3,7 @@
 
 | Stage                    | Pre-Training                     | Supervised Fine-Tuning               | Reward Modeling                | Reinforcement Learning                     |
 |--------------------------|----------------------------------|--------------------------------------|--------------------------------|--------------------------------------------|
-| Training Data            | Millions of tokens from websites, books, etc. | Prompt-Response Pairs for various tasks | Response Preferences           | Prompts                                     |
+| Training Data            | Trillions of tokens from websites, books, etc. | Prompt-Response Pairs for various tasks | Response Preferences           | Prompts                                     |
 | Modeling Method          | Language Modeling (negative log-likelihood) | Language Modeling (negative log-likelihood) | Binary Classification or Regression | Reinforcement Learning (Using PPO Method)  |
 | Model                    | Base Model                       | SFT Model                            | Reward Model                    | RL Model                                    |
 
