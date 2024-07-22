@@ -172,3 +172,6 @@ llama3_src/
 .vscode/
 sft/
 oscar.eo.txt
+data/
+Llama-3-8B-Instruct-Finance-RAG/
+experiments/
